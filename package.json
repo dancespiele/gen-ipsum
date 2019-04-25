@@ -1,0 +1,32 @@
+{
+  "name": "gen-ipsum",
+  "version": "0.1.0",
+  "description": "a simple generator for lorem-ipsum",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build:dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cngjo/gen-ipsum.git"
+  },
+  "keywords": [
+    "typescript",
+    "library",
+    "lorem-ipsum",
+    "lorem",
+    "ipsum",
+    "generator"
+  ],
+  "author": "Johannes Przymusinski <johannes@przymusinski.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cngjo/gen-ipsum/issues"
+  },
+  "homepage": "https://github.com/cngjo/gen-ipsum#readme",
+  "devDependencies": {
+    "typescript": "^3.4.5"
+  }
+}
